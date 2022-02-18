@@ -2,32 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CELELAG</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     </head>
 <body>
-    <section class="a1">
-            <div>
-            <img src="cllg logo.png" alt="">
-         </div>
-                  <div class="dropdown">
-             <button class="dropbtn">Menu</button>
-        <div class="dropdown-content">
-             <a href="#news">Let's Connect</a>
-             <a href="#home">Who we are</a>
-             <a href="#contact">Our Ministries</a>
-             <a href="#about">Our Resources</a>
-             <a href="#about">What's New</a>
-             <a href="#about">Give back</a>
-             </div>
-         </div>
-    </section>
-    <h4>To gain and Portray</h4><h1>New life In Christ</h1>
-    </section>
-        <em>CCC Student's Fellowship Unilag</em>
-        <button>I'm new</button>
-    <button>Sermons</button>
+    <nav>
+        <div class="logo">CELELAG</div>
+        <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+         <li><a href="#Home">Home</a></li>
+         <li>
+          <label for="btn-1" class="show">Our Units  <span class="fa fa-angle-down"></span></label>   
+            <a href="#contact">Our Units</a>
+            <input type="checkbox" id="btn-1">
+         <ul>
+             <li><a href="">Service Unit</a></li>
+             <li><a href="">Technical Unit</a></li>
+             <li><a href="">The Choir</a></li>
+             <li><a href="">Drama Uit</a></li>
+             <li><a href="">Publicity Unit</a></li>
+             <li><a href="">Financial Unit</a></li>
+    </ul>
+        </li>
+         <li>
+            <label for="btn-2" class="show">Our Executives  <span class="fa fa-angle-down"></span></label>
+            <a href="#about">Our Executives</a>
+            <input type="checkbox" id="btn-2">
+        </li>
+         <li>
+            <label for="btn-3" class="show">Contact Us  <span class="fa fa-angle-down"></span></label>
+            <a href="#home" class="a1">Contact Us</a>
+            <input type="checkbox" id="btn-3">
+        <ul>
+            <li><a href="#facebook">Facebook</a></li>
+            <li><a href="#instagram">Instagram</a></li>
+            <li><a href="#twitter">Twitter</a></li>
+        </ul>
+        </li>
+        <li>
+            <a href="#give">Give to Us</a>
+        </li>
+    </ul>
+</nav>
 </body>
 </html>
