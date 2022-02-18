@@ -114,8 +114,8 @@ nav ul ul li a:hover{
     width: 50px;
     margin: 15px 0;
     /* padding-left: -20px; */
-    float: left;
-  } */
+    /* float: left; */
+  /* } */
 
   nav ul li, nav ul ul li{
     display: block;
